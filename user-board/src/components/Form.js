@@ -67,6 +67,16 @@ export default function SignUp() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    // const newAccount ={
+    //     firstName: formValues.firstName.trim(),
+    //     lastName: formValues.lastName.trim(),
+    //     email: formValues.email.trim(),
+    //     password: formValues.password.trim(),
+    // }
+    //push data
+    // setAccount([...account, newAccount])
+    //reset
+    // setValues(initialValues)
   };
 
   useEffect(() => {
